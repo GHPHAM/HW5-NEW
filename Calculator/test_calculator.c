@@ -62,7 +62,7 @@ int main(void) {
     RUN_TEST(test_add_overflow);
     RUN_TEST(test_add_underflow);
     RUN_TEST(test_subtraction);
-    //RUN_TEST(test_multiply);
+    RUN_TEST(test_multiply);
     //RUN_TEST(test_divide);
     return UNITY_END();
 }
